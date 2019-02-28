@@ -2,33 +2,59 @@
 Introduction to HTML and CSS
 <!DOCTYPE html>
 <head>
-  <title>Anna Dowlin</title>
-  <style>
-    body {
-      text-align: center;
-      background: url("http://dash.ga.co/assets/anna-bg.png");
-      background-size: cover;
-      background-position: center;
-      color: white;
-      font-family: helvetica;
-    }
-    p {
-      font-size: 22px;
-    }
-    input {
-      border: 0;
-      padding: 10px;
-      font-size: 18px;
-    }
-    input[type="submit"] {
-      background: red;
-      color: white;
-    }
-  </style>
-</head>
+<title>Toluwanimi Okikiolu</title>
+ <style>
+ body{
+   font-size: 22px;
+   text-align: center;
+   background: url("https://i.imgur.com/gVv01dN.jpg");
+   background-size: cover;
+   background-position: center;
+   color: blue;
+   font-family: Ariel;
+ }
+ input[type="text"]{
+   border: 2;
+   padding: 5px;
+   font-size: 14px;
+   font-family: Helvetica;
+ }
+ input[type="number"]{
+   border: 2;
+   padding: 5px;
+   font-size: 14px;
+   font-family: Helvetica;
+ }
+   input[type="radio"]{
+   border:2;
+   padding:5px;
+   font-size:14px;
+   font-family: Helvetica;
+   }
+   input[type="submit"]{
+   border: 2;
+   padding: 5px;
+   font-size: 14px;
+   font-family: Helvetica;
+   color: yellow;
+   background: purple;
+   }
+ </style>
+ </head>
 <body>
-  <img src="/assets/anna.png">
-  <p>Hi! I'm Anna, a NYC-based marketer. Say hello!</p>
-  <input type="email" placeholder="Your email">
+  <img src="/downloads/crusade3.jpg">
+  <p>Hello my name is Toluwanimi Okikiolu. I'm a Web Designer.. Say hello!!</p>
+  <form>
+  <br>
+  <input type="text" placeholder="First Name"><br>
+  <br>
+  <input type="text" placeholder="Last Name"><br>
+  <br>
+  <input type="number" placeholder="Phone number"><br>
+  <br>
+  <input type="radio" name="gender" value="male">Male<br>
+  <input type="radio" name="gender" value="female">Female<br>
+  <br>
   <input type="submit">
+  </form>
 </body>
